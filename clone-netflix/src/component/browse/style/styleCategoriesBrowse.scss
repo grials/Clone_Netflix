@@ -1,0 +1,15 @@
+.categoriesBrowse{
+    width: 100%;
+    height: auto;
+    position: relative;
+    border-bottom: solid 5px #555;
+    .continerRowList{
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: stretch;
+        justify-content: center;
+        padding: 32px 16px 64px 16px;
+    }
+}

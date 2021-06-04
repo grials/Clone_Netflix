@@ -1,0 +1,210 @@
+{
+  "registration": {
+    "textSinginSingup": "Iniciar sesión",
+    "textSteps": "PASO 1 DE 3",
+    "textTitle": "Completa la configuración de tu cuenta.",
+    "textSubTitle": "Netflix está personalizado para ti. Crea una contraseña para ver Netflix en cualquier dispositivo, cuando quieras.",
+    "textButton": "Continuar",
+    "footer": {
+      "contactTitle": "¿Preguntas? Llama al +1 (408) 469-4467 (USA)",
+      "contactLinks": [
+        "Preguntas frecuentes",
+        "Centro de ayuda",
+        "Términos de uso",
+        "Privacidad",
+        "Preferencias de cookies",
+        "Información corporativa"
+      ],
+      "optionLanguage": ["Español", "English"]
+    }
+  },
+  "regForm": {
+    "textSinginSingup": "Iniciar sesión",
+    "textSteps": "PASO 1 DE 3",
+    "textTitle": "Crea una contraseña para que comiences tu membresía.",
+    "textSubTitle_1": "¡Unos pasos más y listo!.",
+    "textSubTitle_2": "Tampoco nos gustan los trámites",
+    "textEmail": "Email",
+    "textErrorEmail": "Escribe una dirección de email válida.",
+    "textPassword": "Agrega una contraseña",
+    "textErrorPassword": "La contraseña es obligatoria.",
+    "textButton": "Continuar",
+    "footer": {
+      "contactTitle": "¿Preguntas? Llama al +1 (408) 469-4467 (USA)",
+      "contactLinks": [
+        "Preguntas frecuentes",
+        "Centro de ayuda",
+        "Términos de uso",
+        "Privacidad",
+        "Preferencias de cookies",
+        "Información corporativa"
+      ],
+      "optionLanguage": ["Español", "English"]
+    }
+  },
+  "singupPrePlane": {
+    "textSinginSingup": "Iniciar sesión",
+    "singOff": "Cerrar sesión",
+    "textSteps": "PASO 2 DE 3",
+    "textTitle": "Selecciona tu plan.",
+    "textSubTitle_1": "Sin compromisos, cancela cuando quieras.",
+    "textSubTitle_2": "Todo Netflix a un bajo costo.",
+    "textSubTitle_3": "Disfruta sin límites en todos tus dispositivos.",
+    "textButton": "Ver los planes",
+    "footer": {
+      "contactTitle": "¿Preguntas? Llama al +1 (408) 469-4467 (USA)",
+      "contactLinks": [
+        "Preguntas frecuentes",
+        "Centro de ayuda",
+        "Términos de uso",
+        "Privacidad",
+        "Preferencias de cookies",
+        "Información corporativa"
+      ],
+      "optionLanguage": ["Español", "English"]
+    }
+  },
+  "singupPlanForm": {
+    "textSinginSingup": "Iniciar sesión",
+    "singOff": "Cerrar sesión",
+    "textSteps": "PASO 2 DE 3",
+    "textTitle": "Selecciona el plan ideal para ti",
+    "textSubTitle_1": "Ve todo lo que quieras. Sin anuncios.",
+    "textSubTitle_2": "Recomendaciones exclusivas para ti.",
+    "textSubTitle_3": "Puedes cambiar de plan o cancelar cuando quieras.",
+    "Planes": {
+      "caracteristicas": [
+        "Precio mensual",
+        "Calidad de video",
+        "Resolución",
+        "Ve Netflix en tu TV, computadora, celular y tablet"
+      ],
+      "planBasico": {
+        "name": "Básico",
+        "price": "USD7,99",
+        "quality": "Buena",
+        "resolution": "480p",
+        "whereSee": true
+      },
+      "planEstandar": {
+        "name": "Estándar",
+        "price": "USD10,99",
+        "quality": "Mejor",
+        "resolution": "1080p",
+        "whereSee": true
+      },
+      "planPremium": {
+        "name": "Premium",
+        "price": "USD13,99",
+        "quality": "Óptima",
+        "resolution": "4k+HDR",
+        "whereSee": true
+      }
+    },
+    "terms": [
+      "La disponibilidad del contenido en HD (720p), Full HD (1080p), Ultra HD (4K) y HDR depende de tu servicio de internet y del dispositivo en uso. No todo el contenido está disponible en todas las resoluciones. Consulta nuestros ",
+      "Términos de uso",
+      " para obtener más información.",
+      "Solo las personas que vivan contigo pueden usar tu cuenta. Puedes ver Netflix en 4 dispositivos distintos al mismo tiempo con el plan Premium, en 2 con el plan Estándar y en 1 con el plan Básico."
+    ],
+    "textButton": "Continuar",
+    "footer": {
+      "contactTitle": "¿Preguntas? Llama al +1 (408) 469-4467 (USA)",
+      "contactLinks": [
+        "Preguntas frecuentes",
+        "Centro de ayuda",
+        "Términos de uso",
+        "Privacidad",
+        "Preferencias de cookies",
+        "Información corporativa"
+      ],
+      "optionLanguage": ["Español", "English"]
+    }
+  },
+  "singupPayment": {
+    "textSinginSingup": "Iniciar sesión",
+    "singOff": "Cerrar sesión",
+    "textSteps": "PASO 3 DE 3",
+    "textTitle": "Configura tu pago.",
+    "textSubTitle_1": "Tu membresía comienza en cuanto configures el pago",
+    "textSubTitle_2": "Sin compromisos. Cancela online cuando quieras.",
+    "payCard": {
+      "titlePay": "Servidor seguro",
+      "subTitlePay": "Tarjeta de crédito o débito"
+    },
+    "footer": {
+      "contactTitle": "¿Preguntas? Llama al +1 (408) 469-4467 (USA)",
+      "contactLinks": [
+        "Preguntas frecuentes",
+        "Centro de ayuda",
+        "Términos de uso",
+        "Privacidad",
+        "Preferencias de cookies",
+        "Información corporativa"
+      ],
+      "optionLanguage": ["Español", "English"]
+    }
+  },
+  "singupCardCredit": {
+    "textSinginSingup": "Iniciar sesión",
+    "singOff": "Cerrar sesión",
+    "textSteps": "PASO 3 DE 3",
+    "textTitle": "Configura tu tarjeta de crédito o débito.",
+    "formCardCredit": [
+      {
+        "name": "useFirtsName",
+        "type": "text",
+        "placeholder": "Nombre",
+        "textError": "El nombre es obligatorio."
+      },
+      {
+        "name": "useSecondName",
+        "type": "text",
+        "placeholder": "Apellido",
+        "textError": "Ingresa un apellido válido"
+      },
+      {
+        "name": "numCard",
+        "type": "text",
+        "placeholder": "Numero de tarjeta",
+        "textError": "El número de tarjeta es obligatorio."
+      },
+      {
+        "name": "birthDate",
+        "type": "text",
+        "placeholder": "Fecha de vencimiento (MM/AA)",
+        "textError": "El mes de vencimiento es obligatorio. El mes de vencimiento debe estar entre 1 y 12. El año de vencimiento debe estar entre 2021 y 2046."
+      },
+      {
+        "name": "codeSegure",
+        "type": "text",
+        "placeholder": "Código de seguridad (CVV)",
+        "textError": "El código de seguridad (CVV) es obligatorio.",
+        "isCodeSegure": true
+      }
+    ],
+    "priceText": "al mes",
+    "textButtonChangePlan": "Cambiar",
+    "terms": [
+      "Los pagos se procesarán internacionalmente. Es posible que se apliquen comisiones bancarias adicionales.",
+      "Al hacer clic en el botón Iniciar membresía, aceptas nuestros",
+      "Términos de uso",
+      "  y nuestra",
+      "Declaración de privacidad",
+      ", declaras que tienes más de 18 años y aceptas que Netflix continuará tu membresía de manera automática y que, hasta que la canceles, te facturará el cargo mensual (actualmente de USD13,99) a través de la forma de pago elegida. Puedes cancelarla en cualquier momento para evitar cargos en el futuro. Para hacerlo, ve a Cuenta y haz clic en Cancelar membresía."
+    ],
+    "textButton": "Iniciar membresía",
+    "footer": {
+      "contactTitle": "¿Preguntas? Llama al +1 (408) 469-4467 (USA)",
+      "contactLinks": [
+        "Preguntas frecuentes",
+        "Centro de ayuda",
+        "Términos de uso",
+        "Privacidad",
+        "Preferencias de cookies",
+        "Información corporativa"
+      ],
+      "optionLanguage": ["Español", "English"]
+    }
+  }
+}

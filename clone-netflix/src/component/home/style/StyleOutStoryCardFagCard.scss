@@ -1,0 +1,113 @@
+.cardFag{
+    width: 100%;
+    height: auto;
+    padding: 32px 0;
+    border-bottom: 5px solid #222;
+
+    .continerFag{
+        width: 100%;
+        height: auto;
+        .continer_continerFag{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            .continerFagTitle{
+                color: #fff;
+                font-size: 1.625rem;
+                text-align: center;
+                margin-bottom: 16px;
+            }
+            .fagList{
+
+                width: 100%;
+                height: auto;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                align-items: center;
+            }
+            .cardContinerEmail{
+                width: 100%;
+                padding: 0 16px;
+            }
+        }
+    
+    }
+    
+}
+
+@media(min-width: 550px) and (max-width: 950px){
+    .cardFag{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        .continerFag{
+            width: 80%;
+            .continer_continerFag{
+                .continerFagTitle{
+                    font-size: 2.5rem;
+                    margin-bottom: 32px;
+                }
+                .fagList{
+                    max-width: max-content;
+                    margin-bottom: 32px;
+                }
+            }
+        }
+    }
+}
+
+@media(min-width: 950px){
+    .cardFag{
+        .continerFag{
+            .continer_continerFag{
+                .continerFagTitle{
+                    font-size: 3.125rem;
+                }
+                .cardContinerEmail{
+                    max-width: 815px;
+                    .continerEmail{
+                        .continer_continerEmail{
+                            align-items: center;
+                            h3{
+                                font-size: 1.625rem;
+                                text-align: center;
+                            }
+                            .continerGroupEmail{
+                                width: 100%;
+                                height: 70px;
+                                .continer_continerGroupEmail{
+                                    height: 100%;
+                                    flex-direction: row;
+                                    align-items: stretch;
+                                    .continer2_continerGroupEmail{
+                                        height: 100%;
+                                        margin-bottom: 0;
+                                        .groupEmail_email{
+                                            input{
+                                                padding: 1.5rem 0 0 16px;
+                                                font-size: 1.2rem;
+                                            }
+                                            label{
+                                                font-size: 1.5rem;
+                                            }
+                                        }
+                                    }
+                                    button{
+                                        font-size: 1.5rem;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+                .fagList{
+                    max-width: 815px;
+                    margin: 2% 0;
+                }
+            }
+        }
+
+    }
+}

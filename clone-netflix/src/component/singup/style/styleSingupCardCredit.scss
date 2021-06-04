@@ -1,0 +1,31 @@
+.singupCardCredit{
+    width: 100%;
+    height: auto;
+    position: relative;
+    .continer_singupCardCredit{
+        width: 100%;
+        height: auto;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        align-items: stretch;
+        justify-content: center;
+        background-color: #000;
+        .simpleContiner{
+            position: relative;
+            height: auto;
+            padding-bottom: 95px;
+            .continer_simpleContiner{
+                width: 100%;
+                height: auto;
+                padding: 10%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+        }
+        .cardSiteFooter{
+            background-color: #111;
+        }
+    }
+}

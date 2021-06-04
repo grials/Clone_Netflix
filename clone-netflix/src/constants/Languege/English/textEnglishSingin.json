@@ -1,0 +1,32 @@
+{
+  "loginBody": {
+    "title": "Sign In",
+    "textButton": "Sign In",
+    "textFormUsername": "Email or phone number",
+    "textFormUsernameError": "Please enter a valid email or phone number.",
+    "textFormUsernameInvalid": "Invalid email error",
+    "textFormPasswordInvalid": "Invalid password error",
+    "textFormPassword": "Password",
+    "textFormPasswordError": "Your password must contain between 4 and 60 characters.",
+    "textChangeInputPassword": ["SHOW", "HIDE"],
+    "textCheckBox": "Remember me",
+    "textHelp": "Need help?",
+    "textFacebookSingin": "Login with Facebook",
+    "textSinginSingup": "New to Netflix? ",
+    "textSingupSingin": "Sign up now.",
+    "textReCaptcha": "This page is protected by Google reCAPTCHA to ensure you're not a bot. ",
+    "textButtonReCaptcha": "Learn more."
+  },
+  "contactSingin": {
+    "contactTitle": "Questions? Call +1 (408) 469-4467 (USA)",
+    "contactLinks": [
+      "FAQ",
+      "Help Center",
+      "Terms of Use",
+      "Privacy",
+      "Cookie Preferences",
+      "Corporate Information"
+    ],
+    "optionLanguage": ["English", "Español"]
+  }
+}

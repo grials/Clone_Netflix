@@ -1,0 +1,70 @@
+.regFormSingupForm{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: stretch;
+    margin: 32px 0;
+    .loginFormSingupUsername, .loginFormSingupPassword{
+        width: 100%;
+        height: auto;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        align-items: stretch;
+        margin: 8px 0;
+        
+        .continer_formUsername, .continer_formPassoword{
+            position: relative;
+            height: 50px;
+            display: flex;
+            justify-content: center;
+            align-items: stretch;
+            label{
+                position: absolute;
+                font-size: .8rem;
+                color: #999;
+                left: 16px;
+                top: 35%;
+                transition: top .5s ease-in;
+            }
+            .labelActive{
+                top: 5%;
+            }
+            input{
+                flex-grow: 1;
+                color:#fff;
+                padding: 16px 0 0 16px;
+                outline: none;
+                background-color: #333;
+                border: none;
+            }
+        }
+        .continer_formUsernameSuscess, .continer_formPasswordSuscess{
+            border: 2px solid #0f0;
+            .continer_formUsername, .continer_formPassoword{
+                label{
+                    color: #0f0;
+                }
+            }
+        }
+        .continer_formUsernameError, .continer_formPasswordError{
+            border: 2px solid #f00;
+        }
+        h3{
+            color: #f00;
+            font-size: .8rem;
+            margin-top: 1%;
+        }
+    }
+    button{
+        height: 50px;
+        margin: 16px 0;
+        color: #fff;
+        border: none;
+        background-color: #f00;
+        border-radius: 2px;
+        cursor: pointer;
+    }
+}

@@ -1,0 +1,59 @@
+.selectBox{
+    border: 1px solid #fff;
+    max-width: 98px;
+    margin-right: 8px;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    background-color: transparent;
+    padding: 0;
+    cursor: pointer;
+    .select{
+        height: 100%;
+        width: 100%;
+        padding: 4px;
+        position: relative;
+        .continerSelect{
+            width: 100%;
+            height: 100%;
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+            position: relative;
+            .iconLanguage{
+                font-size: 1.2rem;
+                color: #fff;
+            }
+            h1{
+                font-size: .8rem;
+                color: #fff;
+            }
+        }
+        .arrowDown{
+            position: absolute;
+            right: 0px;
+            top: 0;
+            height: 100%;
+            background-color: #000;
+            color: #fff;
+            
+        }
+    }
+    
+    
+}
+
+.opciones{
+    background-color: #999;
+    position: absolute;
+    width: 100%;
+    height: auto;
+    left: 0;
+    top: 100%;
+    h2{
+        font-size: .8rem;
+        padding: 8px;
+        color: #fff;
+    }
+}

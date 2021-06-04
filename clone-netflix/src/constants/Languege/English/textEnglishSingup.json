@@ -1,0 +1,210 @@
+{
+  "registration": {
+    "textSinginSingup": "Sign In",
+    "textSteps": "STEP 1 OF 3",
+    "textTitle": "Finish setting up your account.",
+    "textSubTitle": "Netflix is personalized for you. Create a password to watch Netflix on any device at any time.",
+    "textButton": "Continue",
+    "footer": {
+      "contactTitle": "Questions? Call +1 (408) 469-4467 (USA)",
+      "contactLinks": [
+        "FAQ",
+        "Help Center",
+        "Terms of Use",
+        "Privacy",
+        "Cookie Preferences",
+        "Corporate Information"
+      ],
+      "optionLanguage": ["English", "Español"]
+    }
+  },
+  "regForm": {
+    "textSinginSingup": "Sign In",
+    "textSteps": "STEP 1 OF 3",
+    "textTitle": "Create a password to start your membership.",
+    "textSubTitle_1": "Just a few more steps and you're done!",
+    "textSubTitle_2": "We hate paperwork, too.",
+    "textEmail": "Email",
+    "textErrorEmail": "Please enter a valid email address",
+    "textPassword": "Add a password",
+    "textErrorPassword": "Password is required!",
+    "textButton": "Continue",
+    "footer": {
+      "contactTitle": "Questions? Call +1 (408) 469-4467 (USA)",
+      "contactLinks": [
+        "FAQ",
+        "Help Center",
+        "Terms of Use",
+        "Privacy",
+        "Cookie Preferences",
+        "Corporation Information"
+      ],
+      "optionLanguage": ["English", "Español"]
+    }
+  },
+  "singupPrePlane": {
+    "textSinginSingup": "Sign In",
+    "singOff": "Sign Out",
+    "textSteps": "STEP 2 OF 3",
+    "textTitle": "Choose your plan.",
+    "textSubTitle_1": "No commitments, cancel anytime.",
+    "textSubTitle_2": "Everything on Netflix for one low price.",
+    "textSubTitle_3": "Unlimited viewing on all your devices.",
+    "textButton": "See the Plans",
+    "footer": {
+      "contactTitle": "Questions? Call +1 (408) 469-4467 (USA)",
+      "contactLinks": [
+        "FAQ",
+        "Help Center",
+        "Terms of Use",
+        "Privacy",
+        "Cookie Preferences",
+        "Corporation Information"
+      ],
+      "optionLanguage": ["English", "Español"]
+    }
+  },
+  "singupPlanForm": {
+    "textSinginSingup": "Sign In",
+    "singOff": "Sign Out",
+    "textSteps": "STEP 2 OF 3",
+    "textTitle": "Choose the plan that’s right for you",
+    "textSubTitle_1": "Watch all you want. Ad-free.",
+    "textSubTitle_2": "Recommendations just for you.",
+    "textSubTitle_3": "Change or cancel your plan anytime.",
+    "Planes": {
+      "caracteristicas": [
+        "Monthly price",
+        "Video quality",
+        "Resolution",
+        "Watch on your TV, computer, mobile phone and tablet"
+      ],
+      "planBasico": {
+        "name": "Basic",
+        "price": "USD7,99",
+        "quality": "Good",
+        "resolution": "480p",
+        "whereSee": true
+      },
+      "planEstandar": {
+        "name": "Standard",
+        "price": "USD10,99",
+        "quality": "Better",
+        "resolution": "1080p",
+        "whereSee": true
+      },
+      "planPremium": {
+        "name": "Premium",
+        "price": "USD13,99",
+        "quality": "Best",
+        "resolution": "4k+HDR",
+        "whereSee": true
+      }
+    },
+    "terms": [
+      "HD (720p), Full HD (1080p), Ultra HD (4K) and HDR availability subject to your internet service and device capabilities. Not all content is available in all resolutions. See our ",
+      "Terms of Use",
+      " for more details.",
+      "Only people who live with you may use your account. Watch on 4 different devices at the same time with Premium, 2 with Standard and 1 with Basic."
+    ],
+    "textButton": "Continue",
+    "footer": {
+      "contactTitle": "Questions? Call +1 (408) 469-4467 (USA)",
+      "contactLinks": [
+        "FAQ",
+        "Help Center",
+        "Terms of Use",
+        "Privacy",
+        "Cookie Preferences",
+        "Corporation Information"
+      ],
+      "optionLanguage": ["English", "Español"]
+    }
+  },
+  "singupPayment": {
+    "textSinginSingup": "Sign In",
+    "singOff": "Sign Out",
+    "textSteps": "STEP 3 OF 3",
+    "textTitle": "Set up your payment.",
+    "textSubTitle_1": "Your membership starts as soon as you set up payment.",
+    "textSubTitle_2": "No commitments. Cancel online anytime.",
+    "payCard": {
+      "titlePay": "Secure Server",
+      "subTitlePay": "Credit or Debit Card"
+    },
+    "footer": {
+      "contactTitle": "Questions? Call +1 (408) 469-4467 (USA)",
+      "contactLinks": [
+        "FAQ",
+        "Help Center",
+        "Terms of Use",
+        "Privacy",
+        "Cookie Preferences",
+        "Corporation Information"
+      ],
+      "optionLanguage": ["English", "Español"]
+    }
+  },
+  "singupCardCredit": {
+    "textSinginSingup": "Sign In",
+    "singOff": "Sign Out",
+    "textSteps": "STEP 3 OF 3",
+    "textTitle": "Set up your credit or debit card.",
+    "formCardCredit": [
+      {
+        "name": "useFirtsName",
+        "type": "text",
+        "placeholder": "Firts Name",
+        "textError": "Please enter a valid first name!"
+      },
+      {
+        "name": "useSecondName",
+        "type": "text",
+        "placeholder": "Apellido",
+        "textError": "Please enter a valid last name!"
+      },
+      {
+        "name": "numCard",
+        "type": "text",
+        "placeholder": "Card number",
+        "textError": "Please enter a valid credit card number!"
+      },
+      {
+        "name": "birthDate",
+        "type": "text",
+        "placeholder": "Expiration Date (MM/AA)",
+        "textError": "Please enter a valid expiration month!. Expiration Month must be between 1 and 12!. Expiration Year must be between 2021 and 2046!"
+      },
+      {
+        "name": "codeSegure",
+        "type": "text",
+        "placeholder": "Segurity Code (CVV)",
+        "textError": "Please enter a valid CVV code!",
+        "isCodeSegure": true
+      }
+    ],
+    "priceText": "/month",
+    "textButtonChangePlan": "Change",
+    "terms": [
+      "Your payments will be processed internationally. Additional bank fees may apply.",
+      "By clicking the \"Start Membership\" button below, you agree to our",
+      "Terms of Use",
+      ",",
+      "Privacy Statement",
+      ", that you are over 18, and that Netflix will automatically continue your membership and charge the monthly membership fee (currently USD13.99) to your payment method until you cancel. You may cancel at any time to avoid future charges. To cancel, go to Account and click \"Cancel Membership.\""
+    ],
+    "textButton": "Start Membership",
+    "footer": {
+      "contactTitle": "Questions? Call +1 (408) 469-4467 (USA)",
+      "contactLinks": [
+        "FAQ",
+        "Help Center",
+        "Terms of Use",
+        "Privacy",
+        "Cookie Preferences",
+        "Corporation Information"
+      ],
+      "optionLanguage": ["English", "Español"]
+    }
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "loginBody": {
+    "title": "Inicia sesión",
+    "textButton": "Iniciar sesión",
+    "textFormUsername": "Email o número de teléfono",
+    "textFormUsernameError": "Ingresa un email o un número de teléfono válido.",
+    "textFormUsernameInvalid": "Error email invalido",
+    "textFormPassword": "Contraseña",
+    "textFormPasswordError": "La contraseña debe tener entre 4 y 60 caracteres.",
+    "textFormPasswordInvalid": "Error contraseña invalida",
+    "textChangeInputPassword": ["MOSTRAR", "OCULTAR"],
+    "textCheckBox": "Recuérdame",
+    "textHelp": "¿Necesitas ayuda?",
+    "textFacebookSingin": "Iniciar sesión con Facebook",
+    "textSinginSingup": "¿Primera vez en Netflix? ",
+    "textSingupSingin": "Suscríbete ya.",
+    "textReCaptcha": "Esta página está protegida por Google reCAPTCHA para comprobar que no eres un robot. ",
+    "textButtonReCaptcha": "Más info."
+  },
+  "contactSingin": {
+    "contactTitle": "¿Preguntas? Llama al +1 (408) 469-4467 (USA)",
+    "contactLinks": [
+      "Preguntas frecuentes",
+      "Centro de ayuda",
+      "Términos de uso",
+      "Privacidad",
+      "Preferencias de cookies",
+      "Información corporativa"
+    ],
+    "optionLanguage": ["Español", "English"]
+  }
+}

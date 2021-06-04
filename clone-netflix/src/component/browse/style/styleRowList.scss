@@ -1,0 +1,82 @@
+.rowList{    
+    height: auto;
+    position: relative;
+    margin-bottom: 64px;
+    .continer_rowList{
+        width: 100%;
+        height: auto;
+        position: relative;
+        .continer2_rowList{
+            width: 100%;
+            position: relative;
+            display: grid;
+            grid-template-columns: 1fr;
+            grid-template-rows: auto 1fr;
+            grid-template-areas: "title"
+                                "carrusel";
+            .continerTitle{
+                grid-area: title;
+                padding: 8px;
+                background-color: #9992;
+                display: flex;
+                justify-content: flex-start;
+                align-items: center;
+                border-top-left-radius: 15px;
+                border-top-right-radius: 15px;
+                h1{
+                    color: #fff;
+                    font-size: 1.2rem;
+                }
+            }
+
+            .continerCarrusel{
+                grid-area: carrusel;
+                height: auto;
+                position: relative;
+                background-color: #2229;
+                .continer_continerCarrusel{
+                    width: 100%;
+                    height: 100%;
+                    position: relative;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: stretch;
+                }                
+            }
+        }
+    }
+
+}
+
+@media(min-width: 450px)and (max-width: 830px){
+    .rowList{    
+        .continer_rowList{
+            .continer2_rowList{
+                .continerTitle{
+                    h1{
+                        color: #fff;
+                        font-size: 1.7rem;
+                    }
+                }
+            }
+        }
+    
+    }
+}
+
+@media(min-width: 830px){
+    .rowList{    
+        .continer_rowList{
+            .continer2_rowList{
+                .continerTitle{
+                    padding: 16px;
+                    h1{
+                        font-size: 2.5rem;
+                    }
+                }
+            }
+        }
+    
+    }
+}

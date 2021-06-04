@@ -1,0 +1,245 @@
+.cardAnimation{
+    min-height: 450px;
+    width: 100%;
+    height: auto;
+    border-bottom: 5px solid #111;
+    
+    .cardAnimationContiner{
+        width: 100%;
+        height: auto;
+        position: relative;
+
+        .continer_cardAnimationContiner{
+            width: 100%;
+            height: auto;
+            padding: 15% 5% 15% 5%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            .animationCardText{
+                width: 100%;
+                h1,h2{
+                    color: #fff;
+                    text-align: center;
+                    font-weight: 400;
+                }
+                h1{
+                    font-size: 1.6rem;
+                    margin-bottom: .4rem;
+                }
+                h2{
+                    font-size: 1.20rem;
+                    margin: .7rem 0 .25rem;
+                }
+            }
+            .animationContinerCard1{
+                max-width: 600px;
+                width: 100%;
+                height: auto;
+                justify-content: center;
+                align-items: center;
+                position: relative;
+                img{
+                    
+                    width: 100%;
+                    position: relative;
+                    z-index: 5;
+                }
+                .animationCard1{
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    width: 100%;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    height: 100%;
+                    padding: 10% 10% 16% 13%;
+                    z-index: 2;
+                    background-color: #000;
+                    video{
+                        width: 100%;
+                    }
+                }
+            }
+
+            .animationContinerCard2{
+                max-width: 600px;
+                width: 100%;
+                height: auto;
+                position: relative;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                img{
+                    width: 100%;
+                }
+                .animationCard2{
+                    position: absolute;
+                    max-width: 350px;
+                    max-height: 85px;
+                    width: 100%;
+                    height: 30%;
+                    bottom: 5%;
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                    background: #000;
+                    border: 2px solid #fff;
+                    border-radius: 15px;
+                    padding: 8px;
+                    .iconStrangerThings{
+                        height:100%;
+                        width: 15%;
+                        object-fit: fill;
+                    }
+            
+                    .textIconStrangerThings{
+                        h1{
+                            font-size: .9rem;
+                        }
+                        h2{
+                            font-size: .75rem;
+                            color: #00f;
+                        }
+                    }
+                    .download_icon{
+                        width: 48px ;
+                        height: 48px;
+                    }
+                }
+            }
+            
+            .animationContinerCard3{
+                max-width: 600px;
+                width: 100%;
+                height: auto;
+                justify-content: center;
+                align-items: center;
+                position: relative;
+                img{
+                    
+                    width: 100%;
+                    position: relative;
+                    z-index: 5;
+                }
+                .animationCard3{
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    width: 100%;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    height: 100%;
+                    padding: 8% 22% 25% 22%;
+                    z-index: 2;
+                    background-color: #000;
+                    video{
+                        width: 100%;
+                    }
+                }
+            }
+            
+            .animationContinerCard4{
+                max-width: 600px;
+                width: 100%;
+                img{
+                    
+                    width: 100%;
+                }
+            }
+        }
+    }
+}
+
+
+
+@media(min-width: 550px) and (max-width: 950px){
+    .cardAnimation{
+        .cardAnimationContiner{
+            .continer_cardAnimationContiner{
+                padding: 8% 5% 8% 5%;
+                .animationCardText{
+                    h1{
+                        font-size: 2.5rem;
+                    }
+                    h2{
+                        font-size: 1.125rem;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media(min-width: 950px) and (max-width: 1200px){
+    .cardAnimation{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        .cardAnimationContiner{
+            max-width: 1200px;
+            .continer_cardAnimationContiner{
+                padding: 5%;
+                flex-direction: row;
+                .animationCardText{
+                    h1{
+                        font-size: 3.625rem;
+                        text-align: start;
+                    }
+                    h2{
+                        font-size: 1.825rem;
+                        text-align: start;
+                    }
+                }
+            }
+        }
+    }
+    .flex-reverse{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        .cardAnimationContiner{
+            .continer_cardAnimationContiner{
+                flex-direction: row-reverse;
+            }
+        }
+    }
+}
+
+@media(min-width: 1200px){
+    .cardAnimation{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        .cardAnimationContiner{
+            max-width: 1200px;
+            .continer_cardAnimationContiner{
+                padding: 5%;
+                flex-direction: row;
+                .animationCardText{
+                    h1{
+                        font-size: 3.8rem;
+                        text-align: start;
+                    }
+                    h2{
+                        font-size: 2.2rem;
+                        text-align: start;
+                    }
+                }
+            }
+        }
+    }
+    .flex-reverse{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        .cardAnimationContiner{
+            .continer_cardAnimationContiner{
+                flex-direction: row-reverse;
+            }
+        }
+    }
+}

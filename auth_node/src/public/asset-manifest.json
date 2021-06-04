@@ -1,0 +1,34 @@
+{
+  "files": {
+    "main.css": "/static/css/main.1475ca3d.chunk.css",
+    "main.js": "/static/js/main.8fc1db4d.chunk.js",
+    "main.js.map": "/static/js/main.8fc1db4d.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.8af4a731.js",
+    "runtime-main.js.map": "/static/js/runtime-main.8af4a731.js.map",
+    "static/js/2.3af21c24.chunk.js": "/static/js/2.3af21c24.chunk.js",
+    "static/js/2.3af21c24.chunk.js.map": "/static/js/2.3af21c24.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.1475ca3d.chunk.css.map": "/static/css/main.1475ca3d.chunk.css.map",
+    "static/js/2.3af21c24.chunk.js.LICENSE.txt": "/static/js/2.3af21c24.chunk.js.LICENSE.txt",
+    "static/media/StyleApp.scss": "/static/media/Helvetica Bold.c82d3800.Ttf",
+    "static/media/Netflix_2015_logo.5787551b.svg": "/static/media/Netflix_2015_logo.5787551b.svg",
+    "static/media/String_things_icon.347f4ee3.png": "/static/media/String_things_icon.347f4ee3.png",
+    "static/media/amex_payment.dd39ea1f.svg": "/static/media/amex_payment.dd39ea1f.svg",
+    "static/media/download-icon.1ce72c89.gif": "/static/media/download-icon.1ce72c89.gif",
+    "static/media/image-kids.3269d8f6.png": "/static/media/image-kids.3269d8f6.png",
+    "static/media/mastercard_payment.dc6e1dc6.svg": "/static/media/mastercard_payment.dc6e1dc6.svg",
+    "static/media/mobile-string-things-0819.063578d5.jpg": "/static/media/mobile-string-things-0819.063578d5.jpg",
+    "static/media/tv_1.0049bc70.png": "/static/media/tv_1.0049bc70.png",
+    "static/media/tv_2.8e6539e8.png": "/static/media/tv_2.8e6539e8.png",
+    "static/media/video-string-things.b27bb59e.m4v": "/static/media/video-string-things.b27bb59e.m4v",
+    "static/media/video-tv-0819.053994fc.m4v": "/static/media/video-tv-0819.053994fc.m4v",
+    "static/media/visa_payment.bd37a379.svg": "/static/media/visa_payment.bd37a379.svg",
+    "static/media/wallpape_website_small.0f9e6185.jpg": "/static/media/wallpape_website_small.0f9e6185.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.8af4a731.js",
+    "static/js/2.3af21c24.chunk.js",
+    "static/css/main.1475ca3d.chunk.css",
+    "static/js/main.8fc1db4d.chunk.js"
+  ]
+}

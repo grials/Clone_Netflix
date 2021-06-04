@@ -1,0 +1,59 @@
+.singin{
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    height: auto;
+    padding-top: 16px;
+    background-color: #000;
+    position: relative;
+    // overflow-x: hidden;
+    .singinWallpaper{
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        z-index: 1;
+        img{
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+    }
+    .singinWallpaperPanel{
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        background-color: #0005;
+        z-index: 2;
+    }
+
+        .singinHeader{
+            width: 100%;
+            height: 10%;
+            padding: 8px;
+            position: relative;
+            z-index: 100;
+            a{
+                img{
+                    max-width: 200px;
+                    height: auto;
+                    width: 23%;
+                }
+            }
+        }
+    
+}
+
+@media(min-width:750px){
+    .singin{
+        padding-top: 0;
+            .singinHeader{
+                padding: 32px;
+            }
+            .cardLoginBodySingin{
+                grid-area: content;
+                .continercardLoginBodySingin{
+                    background-color: #0009;
+                }
+            }
+        }
+}

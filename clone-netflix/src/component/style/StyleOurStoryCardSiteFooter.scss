@@ -1,0 +1,66 @@
+.cardSiteFooter{
+    width: 100%;
+    height: auto;
+    position: relative;
+    z-index: 100;
+    display: flex;
+    justify-content: center;
+    background-color: #0009;
+    .continerCardSiteFooter{
+        max-width: 1000px;
+        width: 100%;
+        height: auto;
+        padding: 32px 32px 64px 32px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: flex-start;
+        .cardSiteFooterTitle{
+            font-size: 1rem;
+            text-align: start;
+            margin-bottom: 16px;
+            color:#757575;
+        }
+        .continerFooterLinks{
+            margin: 16px 0;
+            width: 100%;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            span{
+                min-width: 100px;
+                width: 25%;
+                margin: 8px 8px;
+                a{
+                    text-decoration: none;
+                    color: #757575
+                }
+            }
+        }
+    }
+    .selectBoxCardSiteFooter{
+        .select{
+            .continerSelect{
+                .iconLanguage{
+                    margin-left: 5%;
+                    color: #757575;
+                    font-size: 1.3rem;
+                }
+                h1{
+                    margin-left: 5%;
+                    color: #757575;
+                    font-size: 1rem;
+                }
+            }
+            
+        }
+        max-width: 140px;
+        width: 100%;
+        height: 60px;
+        margin: 16px 0;
+    }
+    p{
+        font-size: 1rem;
+        color: #757575;
+    }
+}

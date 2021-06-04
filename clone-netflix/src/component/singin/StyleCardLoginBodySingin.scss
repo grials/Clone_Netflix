@@ -1,0 +1,97 @@
+.cardLoginBodySingin{
+    width: 100%;
+    height: auto;
+    padding-bottom: 25%;
+    border-bottom: 2px solid #555;
+    position: relative;
+    z-index: 100;
+    .continercardLoginBodySingin{
+        width: 100%;
+        height: auto;
+        padding: 16px;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: #0001;
+        .title{
+            width: 100%;
+            margin-bottom: 28px;
+            h1{
+                color: #fff;
+                font-size: 32px;
+                text-align: start;
+            }
+        }
+        .singinFacebook{
+            position: relative;
+            width: 100%;
+            height: auto;
+            margin: 16px 0;
+            display: flex;
+            align-items: center;
+            cursor: pointer;
+            h2{
+                margin-left: 8px;
+                color: #737373;
+                font-size: 13px;
+                font-weight: 500;
+            }
+            .loginFormSinginFacebookIcon{
+                color: #00f;
+                font-size: 32px;
+            }
+            .continerSinginFacebook{
+                position: absolute;
+                width: 100%;
+                height: 100%;
+                
+            }
+        }
+        .loginFormSinginSingup{
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 16px 0;
+            h2{
+                color: #737373;
+                font-size: 16px;
+                font-weight: 500;
+                margin-right: 4px;
+            }
+            a{
+                color: #fff;
+                text-decoration: none;
+            }
+        }
+        .reCaptchaSingin{
+            width: 100%;
+            height: auto;
+            margin-top: 11px;
+            font-size: 13px;
+            color: #8c8c8c;
+            button{
+                color: #00f;
+                background-color: transparent;
+                border: none;
+                padding: 0;
+                cursor: pointer;
+            }
+        }
+    }
+}
+
+@media(min-width:750px){
+    
+    .cardLoginBodySingin{
+        display: flex;
+        justify-content: center;
+        .continercardLoginBodySingin{
+            max-width: 450px;
+            width: 450px;
+            padding: 64px;
+        }
+    }
+}

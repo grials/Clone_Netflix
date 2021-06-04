@@ -1,0 +1,86 @@
+.fagListQuest{
+    position: relative;
+    width: 100%;
+    margin-bottom: 8px;
+    cursor: pointer;
+    .fagListQuestTitle{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: .8em 2.2em .8em 1.2em;
+        color: #fff;
+        background-color: #333;
+        border-bottom: 1px solid #000;
+        position: relative;
+        h1{
+            margin-bottom: 1px;
+            font-weight: 400;
+            position: relative;
+            width: 100%;
+            border: 0;
+            font-size: 1.125rem ;
+            cursor: pointer;
+        }
+        svg{
+            font-size: 1.625rem;
+            cursor: pointer;
+        }
+    }
+    .continerResponse{
+        cursor:default;
+        background-color: #333;
+        padding: 0 2.2em 0 1.2em;
+        padding-top: 0;
+        padding-bottom: 0;
+        height: 0;
+        width: 100%;
+        font-size: 1.125rem;
+        overflow: hidden;
+        transition: all .3s ease-in;
+        p{
+            color: #fff;
+            &:first-child{
+                margin-bottom: 8px;
+            }
+        }
+    }
+    .openQuestFag{
+        height: auto;
+        padding-top: .8em;
+        padding-bottom: .8em;
+    }
+}
+
+
+@media(min-width: 550px)and(max-width: 950px){
+    .fagListQuest{
+        .fagListQuestTitle{
+            h1{
+                font-size: 1.325rem;
+            }
+        }
+    }
+}
+
+@media(min-width: 950px){
+    .fagListQuest{
+        .fagListQuestTitle{
+            padding: 3%;
+            h1{
+                font-size: 1.625rem;
+            }
+        }
+        .continerResponse{
+            p{
+                font-size: 1.625rem;
+                &:first-child{
+                    margin-bottom: 24px;
+                }
+            }
+        }
+        .openQuestFag{
+            padding: 1.2em 1.5em;
+
+        }
+    }
+}

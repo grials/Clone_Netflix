@@ -1,0 +1,215 @@
+.continerPlanChoice{
+    width: 100%;
+    padding: 0 32px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    .continerText{
+        margin-bottom: 16px;
+        .continerTitles{
+            color: #999;
+            h1{
+                font-size: 1.5rem;
+            }
+            h3{
+                font-size: .8rem;
+            }
+        }
+        .continerBenef{
+            display: flex;
+            flex-direction: column;
+            align-items: stretch;
+            .benef{
+                display: flex;
+                justify-content: flex-start;
+                margin-bottom: 8px;
+                svg{
+                    color: #f00;
+                    margin-right: 8px;
+                }
+                h2{
+                    color: #999;
+                    font-size: 1.1rem;
+                }
+            }
+        }
+    }
+    .continer_continerPlanChoice{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: stretch;
+        .namePlan{
+            height: auto;
+            position: sticky;
+            top: 0;
+            background-color: #000;
+            .continer_namePlan{
+                padding: 8px 0 32px 0;
+                width: 100%;
+                height: 100%;
+                display: flex;
+                justify-content: space-between;
+                .planBasic, .planEstandar, .planPremium{
+                    position: relative;
+                    min-height: 75px;
+                    border: 2px solid #555;
+                    flex: 0 1 30%;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    cursor: pointer;
+                    span{
+                        position: relative;
+                        font-size: 1rem;
+                        color: #fff;
+                    }
+                    .selectPlan{
+                        position: absolute;
+                        width: 100%;
+                        height: 100%;
+                    }
+                }
+                .select{
+                    background-color: #f00;
+                    border-color: #f00;
+                    position: relative;
+                    &::after{
+                        content: "";
+                        display: block;
+                        position: absolute;
+                        background-color: #000;
+                        width: 0;
+                        height: 0;
+                        top: 103%;
+                        left: calc(50% - 1rem);
+                        border-bottom: 1rem solid transparent;
+                        border-top: 1rem solid #f00;
+                        border-left: 1rem solid transparent;
+                        border-right: 1rem solid transparent;
+                        
+                    }
+                }
+            }
+        }
+        .caractPlan{
+            height: auto;
+            margin: 0 0 8px 0;
+            display: flex;
+            flex-direction: column;
+            align-items: stretch;
+            justify-content: center;
+            .caractPreci, .caractQuality, .caractResolution, .caractWhereSee{
+                height: auto;
+                display: flex;
+                flex-direction: column;
+                align-items: stretch;
+
+                &:not(:last-child){
+                    margin-bottom: 16px;
+                    border-bottom: 2px solid #999;
+                }
+                .title{
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    padding: 4px;
+                    span{
+                        font-size: .8rem;
+                        color: #aaa;
+                        text-align: center;
+                    }
+                }
+                .numCarac{
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: stretch;
+                    color: #fff;
+                    span{
+                        flex: 0 1 30%;
+                        text-align: center;
+                    }
+                    .select{
+                        color: #f00;
+                    }
+                }
+            }
+        }
+    }
+    .termPlan{
+        margin: 16px 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: stretch;
+        p{
+            font-size: .8rem;
+            color: #777;
+            &:first-child{
+                margin-bottom: 8px;
+                a{
+                    text-decoration: none;
+                    color: #00fc;
+                    &:hover{
+                        text-decoration:underline;
+                    }
+                }
+            }
+        }
+    }
+    .continerButton{
+        margin-top: 16px;
+        height: 50px;
+        button{
+            background-color: #f00;
+            width: 100%;
+            height: 100%;
+            font-size: 1rem;
+            color: #fff;
+            cursor: pointer;
+            border: none;
+            border-radius: 2px;
+        }
+    }
+}
+
+@media(min-width: 600px){
+    .continerPlanChoice{
+
+        .continer_continerPlanChoice{
+            .namePlan{
+                display: flex;
+                justify-content: flex-end;
+                .continer_namePlan{
+                    width: 50%;
+                }
+            }
+            .caractPlan{
+                .caractPreci, .caractQuality, .caractResolution, .caractWhereSee{
+                    flex-direction: row;
+                    align-items: center;
+                    .title{
+                        height: 100%;
+                        width: 50%;
+                        padding: 8px;
+                        span{
+                            font-size: 1.2rem;
+                        }
+                    }
+                    .numCarac{
+                        width: 50%;
+                        span{
+                            font-size: 1rem;
+                        }
+                    }
+                }
+            }
+        }
+        .termPlan{
+            p{
+                font-size: 1rem;
+            }
+        }
+    }
+}

@@ -1,0 +1,183 @@
+.singupPayment{
+    width: 100%;
+    height: auto;
+    position: relative;
+    .continer_singupPayment{
+        width: 100%;
+        height: auto;
+        background-color: #000;
+        display: flex;
+        flex-direction: column;
+        align-items: stretch;
+
+        .simpleContiner{
+            height: auto;
+            position: relative;
+            padding-bottom: 95px;
+            .continer_simpleContiner{
+                height: auto;
+                width: 100%;
+                padding: 32px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                .continerPayment{
+                    max-width: 750px;
+                    width: 100%;
+                    height: auto;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: stretch;
+                    justify-content: center;
+                    .continerLogo{
+                        display: flex;
+                        justify-content: flex-start;
+                        align-items: center;
+                        margin-bottom: 16px;
+                        figure{
+                            img{
+                                width: 50px;
+                                height: 50px;
+                            }
+                        }
+                    }
+                    .continerText{
+                        height: auto;
+                        display: flex;
+                        flex-direction: column;
+                        align-items: stretch;
+                        justify-content: center;
+                        color: #999;
+                        margin-bottom: 32px;
+                        h1{
+                            font-size: 1.5rem;
+                            margin-bottom: 16px;
+                        }
+                        h2{
+                            font-size: 1rem;
+                            &:not(:last-child){
+                                margin-bottom: 8px;
+                            }
+                        }
+                        h3{
+                            font-size: .8rem;
+                        }
+                    }
+                    .continerPayCard{
+                        max-width: 500px;
+                        display: flex;
+                        flex-direction: column;
+                        align-items: stretch;
+                        justify-content: center;
+                        .continerLockIcon{
+                            display: flex;
+                            justify-content: flex-end;
+                            align-items: stretch;
+                            padding: 4px;
+                            margin-bottom: 8px;
+                            h3{
+                                display: flex;
+                                justify-content: center;
+                                align-items: center;
+                                font-size: 1rem;
+                                color: #fff;
+                            }
+                            .lockIcon_payCard{
+                                color: #ff0;
+                                margin-left: 8px;
+                            }
+                        }
+                        .continerTypeCard{
+                            background-color: transparent;
+                            cursor: pointer;
+                            position: relative;
+                            padding: 5% 10% 5% 5%;
+                            border: 3px solid #fff;
+                            display: flex;
+                            justify-content: space-between;
+                            align-items: center;
+                            .typeCard{
+                                position: relative;
+                                display: flex;
+                                flex-wrap: wrap;
+                                justify-content: flex-start;
+                                align-items: center;
+                                align-content: center;
+                                h3{
+                                    display: flex;
+                                    justify-content: center;
+                                    align-items: center;
+                                    font-size: 1rem;
+                                    color: #999;
+                                    margin-top: 4px;
+                                    margin-right: 8px;
+                                    margin-bottom: 4px;
+                                }
+                                .continerCards{
+                                    margin-top: 4px;
+                                    width: max-content;
+                                    img{
+                                        width: 50px;
+                                        height: 25px;
+                                        &:not(:last-child){
+                                            margin-right: 4px;
+                                        }
+                                    }
+                                }
+                            }
+                            .arrowTypeCard{
+                                position: absolute;
+                                right: 0;
+                                top: 0;
+                                height: 100%;
+                                width: 10%;
+                                color: #fff;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        .cardSiteFooter{
+            background-color: #111;
+        }
+    }
+}
+
+@media(min-width: 600px){
+    .singupPayment{
+        .continer_singupPayment{
+            .simpleContiner{
+                .continer_simpleContiner{
+                    .continerPayment{
+                        align-items: center;
+                        .continerLogo{
+                            figure{
+                                img{
+                                    height: 100px;
+                                    width: 100px;
+                                }
+                            }
+                        }
+                        .continerText{
+                            h1,h2,h3{
+                                text-align: center;
+                            }
+                            h1{
+                                font-size: 2rem;
+                            }
+                            h2{
+                                font-size: 1.2rem;
+                            }
+                            h3{
+                                font-size: 1rem;
+                                margin-bottom: 4px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,152 @@
+.continerListOfMovies{
+    height: 100%;
+    border: 1px solid #fff;
+    padding: 0;
+    position: relative;
+    .listOfMovies{
+        max-height: 400px;
+        width: 100%;
+        height: 100%;
+        position: relative;
+        .continer_ListOfMovies{
+            width: 100%;
+            height: 100%;
+            position: relative;
+            overflow: hidden;
+            .continer2_listOfMovies{
+                height: 100%;
+                position: relative;
+                top: 0;
+                left: 0;
+                display: flex;
+                justify-content: space-between;
+                align-items: stretch;
+                transition: transform .3s ease-in;
+                .continerCarruselMovie{
+                    height: 100%;
+                    img{
+                        width: 100%;
+                        height: 100%;
+                        object-fit: contain;
+                    }
+                }
+            }
+            .loaderCarrusel{
+                width: 100%;
+                height: 100%;
+            }
+        }
+    }
+
+    .continerButtonRight, .continerButtonLeft{
+        position: absolute;
+        max-width: 100px;
+        top: 0;
+        width: 15%;
+        height: 100%;
+        background-color: transparent;
+        button{
+            width: 100%;
+            height: 100%;
+            border: none;
+            color:#fff;
+            background-color: #0005;
+        }
+    }
+    .continerButtonLeft{
+        right: 0;
+    }
+    .continerButtonRight{
+        left: 0;
+    }
+}
+
+@media(min-width: 450px)and (max-width: 830px){
+    .continerListOfMovies{
+        .listOfMovies{
+            width: 100%;
+            height: 100%;
+            position: relative;
+            .continer_ListOfMovies{
+                width: 100%;
+                height: 100%;
+                overflow: hidden;
+                .continer2_listOfMovies{
+                    height: 100%;
+                    position: relative;
+                    top: 0;
+                    left: 0;
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: stretch;
+                    transition: transform .3s ease-in;
+                    .continerCarruselMovie{
+                        height: 100%;
+                        img{
+                            width: 100%;
+                            height: 100%;
+                            object-fit: contain;
+                        }
+                    }
+                }
+                .loaderCarrusel{
+                    width: 100%;
+                    height: 100%;
+                }
+            }
+        }
+
+        .continerButtonRight, .continerButtonLeft{
+            position: absolute;
+            top: 0;
+            width: 15%;
+            height: 100%;
+            button{
+                width: 100%;
+                height: 100%;
+                border: none;
+                color:#fff;
+            }
+        }
+        .continerButtonLeft{
+            right: 0;
+        }
+        .continerButtonRight{
+            left: 0;
+        }
+    }
+
+}
+@media(min-width: 830px){
+    .continerListOfMovies{
+        .listOfMovies{
+            width: 100%;
+            height: 100%;
+            position: relative;
+            .continer_ListOfMovies{
+                width: 100%;
+                height: 100%;
+                overflow: hidden;
+                .continer2_listOfMovies{
+                    height: 100%;
+                    position: relative;
+                    top: 0;
+                    left: 0;
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: stretch;
+                    transition: transform .3s ease-in;
+                    .continerCarruselMovie{
+                        height: 100%;
+                        padding: 0 16px;
+                        img{
+                            width: 100%;
+                            height: 100%;
+                            object-fit: contain;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
