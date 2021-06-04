@@ -79,7 +79,7 @@ _____
 
 ![view tree](./arbol_de_la_vista.jpg "view tree")
 
-    In addition, the Api The movie Data Base was used to acquire the contents and information of the different movies and series of the moment.
+In addition, the Api The movie Data Base was used to acquire the contents and information of the different movies and series of the moment.
 
 ![the movie database](./atribucion_themoviedb.svg "log the movie db")
 
