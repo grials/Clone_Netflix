@@ -12,7 +12,7 @@ the application is divided into two phases:
 
 ## - **Server**
 _____
-    MongoDB, Mongoose, Express, Bcrypt, Babel technologies were used, among others, for the development of the backend.
+MongoDB, Mongoose, Express, Bcrypt, Babel technologies were used, among others, for the development of the backend.
 
 ### *Comados del servidor*
  Comand                        | Description                    
@@ -24,7 +24,7 @@ _____
 .
 
 ### *Rutas del servidor*
-    The application was created with the following routes: 
+The application was created with the following routes: 
 
  Routes                        | URL                    
  :-                            | :-:                    
@@ -42,7 +42,7 @@ _____
  User is registered            | "/auth/isregister"                     
  Route 404 file not Found      | ""                     
 
-    The Clean Architecture design pattern was used in addition to a layered architecture. The project tree was as follows:
+The Clean Architecture design pattern was used in addition to a layered architecture. The project tree was as follows:
 
 
 
@@ -51,7 +51,7 @@ _____
 
 ### *Api Cap*
 
-    In this layer, the communication of the data with the frontend is defined, it is in charge of working the data sent by the frontend and establishing a connection through the Controller with the Domain and Dal layer. It's divided in:
+In this layer, the communication of the data with the frontend is defined, it is in charge of working the data sent by the frontend and establishing a connection through the Controller with the Domain and Dal layer. It's divided in:
 
 * Controller: establishes all the logic of the application, since as it is an extremely simple API, it was delegated part of the Domain functions, establishes the connection with the Dal and Domain Layers.
   
@@ -67,15 +67,15 @@ _____
 
 ### *Config Cap* 
 
-    It contains the configuration of the server and the database as well as the use of the project environment variables.
+It contains the configuration of the server and the database as well as the use of the project environment variables.
 
 ### *Dal Cap*
 
-    It is in charge of establishing the data model and thus connecting the database.
+It is in charge of establishing the data model and thus connecting the database.
 
 ## *View*
 ----
-    Like the server, a Clean Architecture design pattern is followed but not beyond structuring the project. Technologies such as React, Redux, React-Router, Axios and others were used. The tree of view is structured as follows:
+Like the server, a Clean Architecture design pattern is followed but not beyond structuring the project. Technologies such as React, Redux, React-Router, Axios and others were used. The tree of view is structured as follows:
 
 ![view tree](./arbol_de_la_vista.jpg "view tree")
 
