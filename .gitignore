@@ -3,8 +3,6 @@
 # dependencies
 /auth_node/node_modules
 /clone-netflix/node_modules
-/clone-netflix/.pnp
-/clone-netflix/.pnp.js
 
 # testing
 /clone-netflix/coverage
